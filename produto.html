@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+
+    <!-- CSS GLOBAL (header, menu, fontes) -->
+    <link rel="stylesheet" href="assets/css/base.css">
+
+    <!-- CSS DA PÁGINA DE PRODUTO -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/produto.css">
+  
+</head>
+<body>
+
+<header>
+    <div class="topo">
+        <div class="logo">
+            <a href="index.html">
+            <img class="img-logo" src="logo.jpg" alt="Logo Floral T-shirt">
+            </a>
+        </div>
+
+        <div class="busca">
+            <input type="text" id="campoBusca" placeholder="Buscar produtos...">
+        </div>
+
+        <div class="icones">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-user"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produto.html">Produtos</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="produto-detalhe">
+
+    <div class="produto-imagem">
+        <img src="blusa_nike.jpg" alt="Produto">
+    </div>
+
+    <div class="produto-info">
+        <h1>Blusa Nike</h1>
+        <p class="preco">R$ 99,90</p>
+
+        <p class="descricao">
+            Blusa confortável, ideal para o dia a dia e prática esportiva.
+        </p>
+
+        <div class="cores">
+            <span>Cor:</span>
+            <button class="cor preta"></button>
+            <button class="cor branca"></button>
+            <button class="cor azul"></button>
+        </div>
+
+        <button class="btn-comprar">Comprar</button>
+
+        <div class="frete">
+            <input type="text" placeholder="Digite seu CEP">
+            <button>Calcular frete</button>
+        </div>
+    </div>
+
+</main>
+
+</body>
+</html>
+

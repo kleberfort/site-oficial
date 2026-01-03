@@ -1,0 +1,78 @@
+/* ===== BANNER ===== */
+.banner {
+    background: #ccc;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #333;
+    margin: 20px;
+}
+
+/* ===== PRODUTOS ===== */
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.produto {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.produto h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.produto p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a7d2e;
+    margin-bottom: 10px;
+}
+
+.produto button {
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.produto button:hover {
+    background: #444;
+}
+
+/* ===== MAIS PRODUTOS ===== */
+.mais-produtos {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.mais-produtos button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background: #222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mais-produtos button:hover {
+    background: #444;
+}

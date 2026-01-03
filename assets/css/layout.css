@@ -1,0 +1,72 @@
+/* ===== HEADER ===== */
+header {
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.busca {
+    flex: 1;
+    text-align: center;
+}
+
+.busca input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.icones {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.icones a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* ===== MENU ===== */
+nav {
+    background: #222;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #444;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+

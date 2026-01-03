@@ -1,0 +1,55 @@
+
+/*  Estilos para a página de detalhes do produto*/
+
+.produto-detalhe {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    gap: 40px;
+}
+
+.produto-imagem img {
+    width: 450px;
+}
+
+.produto-info {
+    max-width: 500px;
+}
+
+.preco {
+    font-size: 26px;
+    color: #2a7d2e;
+    margin: 15px 0;
+}
+
+.cores {
+    margin: 20px 0;
+}
+
+.cor {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.preta { background: black; }
+.branca { background: #eee; border: 1px solid #ccc; }
+.azul { background: blue; }
+
+.btn-comprar {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.frete input {
+    padding: 8px;
+    width: 65%;
+}
